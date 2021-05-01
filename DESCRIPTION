@@ -18,7 +18,7 @@ URL: https://github.com/jonclayden/divest
 BugReports: https://github.com/jonclayden/divest/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.1
-Repository: Neuroconductor-Devel
-Remotes:
-        neuroconductor-devel/RNifti@49867d05b1022b8c339abef44c3da2aafa59fa56
 biocViews:
+Repository: Neuroconductor-Devel
+Remotes: 
+    neuroconductor-devel/RNifti@49867d05b1022b8c339abef44c3da2aafa59fa56
