@@ -2,21 +2,29 @@ Package: divest
 Version: 1.1.1
 Date: 2024-10-20
 Title: Get Images Out of DICOM Format Quickly
-Authors@R: c(person("Jon", "Clayden", email="code@clayden.org", role=c("aut","cre"), comment=c(ORCID="0000-0002-6608-0619")),
-             person("Chris", "Rorden", role="aut"),
-             person("Martin J", "Fiedler", role="cph"),
-             person("Cong", "Xu", role="cph"),
-             person("Pascal", "Gloor", role="cph"))
+Authors@R: c(person("Jon", "Clayden", email="code@clayden.org",
+        role=c("aut","cre"), comment=c(ORCID="0000-0002-6608-0619")),
+        person("Chris", "Rorden", role="aut"), person("Martin J",
+        "Fiedler", role="cph"), person("Cong", "Xu", role="cph"),
+        person("Pascal", "Gloor", role="cph"))
 Maintainer: Jon Clayden <code@clayden.org>
 Depends: R (>= 3.5.0)
 Imports: Rcpp, RNifti
 LinkingTo: Rcpp, RNifti
-Suggests: jsonlite, tinytest, covr
-Description: Provides tools to sort DICOM-format medical image files, and
-    convert them to NIfTI-1 format.
+Suggests: 
+    jsonlite,
+    tinytest,
+    covr,
+    testthat
+Description: Provides tools to sort DICOM-format medical image files,
+        and convert them to NIfTI-1 format.
 License: BSD_3_clause + file LICENCE
 URL: https://github.com/jonclayden/divest
 BugReports: https://github.com/jonclayden/divest/issues
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 Roxygen: list(old_usage=TRUE, markdown=TRUE)
+Repository: Neuroconductor-Devel
+Remotes: 
+    neuroconductor-devel/RNifti@b01b7073b6d5d9ff6252ccd004da27d6c2d7cb56
+biocViews: 
